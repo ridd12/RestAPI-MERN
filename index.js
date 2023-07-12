@@ -15,7 +15,6 @@ app.get('/request',(req,res)=>{
     })
 })
 
-
 app.post('/hi/:id',(req,res)=>{
     const { info } = req.params;
     const {body} = req.body;
